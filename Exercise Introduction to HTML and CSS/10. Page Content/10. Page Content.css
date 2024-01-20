@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+section{
+    margin-left:20px;
+}
+p {
+    font-style: italic;
+}
+#par{
+    font-size:24px;
+    font-style:normal
+}
+h1{
+    font-size:28px;
+}
