@@ -1,0 +1,15 @@
+aside{
+    float:right;
+}
+body{
+    font-family:Helvetica, sans-serif;
+    background-color:rgb(238,238,238);
+    color:rgb(51,51,51);
+    margin: 50px;
+}
+article {
+    width: 1000px;
+}
+img{
+    width:800px;
+}

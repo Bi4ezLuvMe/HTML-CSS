@@ -1,0 +1,17 @@
+h1{
+    display:inline;
+}
+header p {
+    display: inline-block;
+    text-indent: 60px;
+}
+a{
+    color: green;
+    text-indent: 300px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+body{
+    font-family:Helvetica, sans-serif;
+    margin-left:50px;
+}

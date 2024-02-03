@@ -1,0 +1,26 @@
+
+li {
+    border-radius: 50%;
+    background-color: lightgray;
+    display: inline-block;
+    padding:5px;
+   
+}
+a{
+    color:black;
+}
+#facebook:hover{
+    color:darkblue;
+}
+#twitter:hover {
+    color: deepskyblue;
+}
+#google:hover {
+    color: orangered;
+}
+#linkedin:hover{
+    color: deepskyblue;
+}
+#instagram:hover{
+    color:slategray;
+}
