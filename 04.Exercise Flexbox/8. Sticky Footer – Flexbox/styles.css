@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:rgb(238,238,238);
+    height:100vh;
+    font-family:Helvetica, sans-serif;
+    margin:0;
+}
+header{
+    width:100%;
+    border-bottom:2px solid black;
+    height:7em;
+}
+h1,main,.footer{
+    margin:2em;
+}
+footer{
+   position:sticky;
+   bottom:0;
+    background-color:rgb(102,102,102);
+    color:rgb(255,255,255);
+    width:100vw;
+}

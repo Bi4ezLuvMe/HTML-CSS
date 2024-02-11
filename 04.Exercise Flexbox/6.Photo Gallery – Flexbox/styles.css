@@ -1,0 +1,16 @@
+body,ul,li{
+    display:flex;
+}
+ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+li{
+    border: 5px solid black;
+    padding:1em;
+    flex: 0 1 30%;
+    align-items:center;
+}
+img{
+    margin:0 auto;
+}

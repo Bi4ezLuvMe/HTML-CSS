@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+}
+ul{
+    display:flex;
+    gap:2em;
+}
+li{
+    flex: 0 0 60px;
+    width:60px;
+    height:300px;
+    overflow:hidden;
+}
+img {
+    width:auto;
+    height:100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+li:nth-child(2){
+    flex: 0 0 100%;
+    box-shadow:10px 10px 10px 10px ;
+}
