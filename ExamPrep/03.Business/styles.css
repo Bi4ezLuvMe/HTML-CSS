@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url(background.jpg);
+    background-repeat:no-repeat;
+   background-size:cover;
+   background-position:top center;
+   padding:1em;
+}
+.logo{
+   position:relative;
+    width:130px;
+    height:110px;
+}
+.nav{
+    display:flex;
+    gap:1em;
+    position:relative;
+    float:right;
+}
+.nav-li a{
+    text-decoration: none;
+    color:white;
+}
+header h1{
+    color:white;
+    margin-left:4em;
+    font-size:40px;
+    line-height:0.5;
+}
+header p {
+    color: white;
+    margin-left: 10em;
+    width:30em;
+    margin-bottom:5em;
+}
+main{
+    display:flex;
+    border-bottom:2px solid rgb(198, 198, 198);
+}
+.Business-Aims{
+    margin:10em;
+}
+    .Business-Aims h2{
+        font-size:50px;
+        font-weight:normal;
+    }
+        .Objectives {
+        margin: 10em;
+
+    }
+        .Objectives h2 {
+      font-size: 50px;
+     font-weight: normal;
+}
+button {
+    color: rgb(174, 127, 91);
+    border: 1px solid rgb(174, 127, 91);
+    padding:5px 10px;
+    background-color:white;
+}
+.s h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(174, 127, 91);
+}
+.s p {
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-size:20px;
+    color: rgb(116, 104, 103);
+}
+.sponsors{
+    display:flex;
+    justify-content:center;
+    gap:20em;
+}
+.sponsors img{
+    width:100px;
+    border-radius:50%;
+    padding:2em;
+    background-color:rgb(221, 221, 221);
+}
+footer{
+    background-color:rgb(23, 23, 32);
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(46, 46, 54);
+}
+    .info h3{
+        margin:2em;
+        color:white;
+    }
+    .info p{
+        text-transform:uppercase;
+        color:rgb(139, 148, 156);
+    }
+    
+span {
+    color: rgb(139, 148, 156);
+   margin:4em;
+}

@@ -1,0 +1,19 @@
+body{
+    display:flex;
+}
+header{
+    flex-direction:column;
+}
+header, nav, main, footer {
+    display:flex;
+     margin:1em;
+    background-color: rgb(181, 216, 255);
+    border:1px solid black;
+}
+nav {
+    flex:1;
+    text-decoration: none;
+}
+main {
+    width:60%;
+}

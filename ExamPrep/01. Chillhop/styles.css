@@ -1,0 +1,45 @@
+
+section{
+    max-width:800px;
+    margin:0 auto;
+    display:flex;
+    padding:2em;
+    border:3px solid black;
+    border-radius:1em;
+    background-color:rgb(24, 129, 182);
+    gap:1em;
+}
+h1{
+    color:white;
+    font-size:30px;
+}
+p{
+    line-height:1.5;
+    text-indent:2em;
+}
+.picture{
+    flex: 0 0 300px;
+}
+img{
+   display:block;
+   width:100%;
+   height:auto;
+}
+button{
+   
+    justify-content:space-evenly;
+    flex-direction:row;
+    border: 1px solid black;
+    border-radius:4px;
+    padding:5px 10px;
+   
+}
+.contact{
+    background-color:rgb(182, 65, 109);
+    color:white;
+    margin-left:3em;
+}
+.learn-more {
+    background-color: rgb(24, 129, 182);
+    margin-left:10em;
+}
