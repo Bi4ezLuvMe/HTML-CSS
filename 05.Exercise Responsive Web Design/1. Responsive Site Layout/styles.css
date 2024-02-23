@@ -1,19 +1,22 @@
 body{
     display:flex;
-}
-header{
     flex-direction:column;
 }
-header, nav, main, footer {
+header,nav,main,footer{
+    background-color:rgb(181, 216, 255);
+    margin:1em;
+}
+div{
     display:flex;
-     margin:1em;
-    background-color: rgb(181, 216, 255);
-    border:1px solid black;
 }
-nav {
-    flex:1;
-    text-decoration: none;
+nav{
+    flex-basis:10%;
 }
-main {
-    width:60%;
+main{
+    flex-basis:90%;
+}
+@media (max-width:500px){
+    div{
+        flex-direction:column;
+    }
 }

@@ -1,0 +1,69 @@
+@media (max-width:600px) {
+    .home-navbar {
+        justify-content: space-evenly;
+    }
+
+    .home-cta-btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-links-container {
+        padding-right: 35px;
+    }
+
+    .home-hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home-image1 {
+        order: -1;
+        width: 100%;
+    }
+
+    .home-hero-text-container {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .home-heading {
+        font-size: 40px;
+    }
+
+    .home-text02 {
+        font-size: 16.5px;
+    }
+
+    .home-cta-btn2 {
+        align-self: center;
+    }
+
+    .Section-Heading {
+        font-size: 35px;
+    }
+
+    .home-heading-container {
+        width: 100%;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-feature-card {
+        align-self: center;
+        width: 100%;
+    }
+
+    .home-feature-card1, .home-feature-card2 {
+        width: 100%;
+    }
+
+    .home-stats {
+        display: flex;
+        flex-direction: column;
+        margin-top: 900px;
+    }
+}

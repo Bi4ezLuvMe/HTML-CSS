@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, footer {
+    background-color: rgb(181, 216, 255);
+    margin: 1em;
+}
+
+div {
+    display: flex;
+}
+
+nav {
+    flex-basis: 10%;
+}
+
+main {
+    flex-basis: 90%;
+}
+
+@media (max-width:500px) {
+    div {
+        flex-direction: column;
+    }
+    .navigation{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation a{
+        display:block;
+    }
+}
+header {
+    display: flex;
+}
+.navigation{
+    display:inherit;
+    flex-direction:row;
+    gap:2em;
+    margin:1em;
+    font-size:20px;
+}
+a{
+    display:inline-block;
+    text-decoration:none;
+}
